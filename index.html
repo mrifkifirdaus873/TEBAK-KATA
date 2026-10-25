@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tebak Kata</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <h1>Tebak Kata</h1>
+
+    <div class="info">
+      <span>Skor: <b id="skor">0</b></span>
+      <span>Nyawa: <b id="nyawa">❤❤❤❤❤❤</b></span>
+    </div>
+
+    <p class="kategori">Kategori: <b id="kategori">-</b></p>
+
+    <div id="kata" class="kata" aria-live="polite"></div>
+
+    <p id="pesan" class="pesan">Huruf pertama sudah dibuka. Pilih huruf untuk menebak.</p>
+
+    <div id="papan-huruf" class="papan-huruf"></div>
+
+    <button id="btn-petunjuk" type="button" class="petunjuk">Petunjuk (-1 nyawa)</button>
+    <button id="btn-baru" type="button" class="baru">Kata baru</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
